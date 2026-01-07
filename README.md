@@ -1,38 +1,41 @@
-# 👨🏻‍💻 Customer Behavior Data Analyst Portfolio Project
+# Customer Shopping Behavior Analysis
 
-## 📌 Project Overview
-This project demonstrates a complete end-to-end **Data Analytics workflow**, showcasing how raw customer transaction data can be transformed into meaningful business insights. It highlights my ability to work across the full analytics lifecycle using **Python, SQL, and Power BI**.
+## Business Problem
+Retail businesses need to understand customer purchasing patterns to improve
+marketing, retention, and revenue.
 
-This project includes:
+This project analyzes customer transaction data to identify:
+- Purchase behavior patterns
+- High-value customers
+- Category-level performance
 
-### ✅ Data Preparation & EDA (Python)
-- Cleaning and preprocessing customer behavior data  
-- Handling missing values, feature engineering, and exploratory analysis  
-- Preparing data for SQL-based analytics and Power BI reporting  
+## Dataset
+- 10,000+ customer transaction records
+- Data includes customer ID, product category, quantity, price, and date
 
-### ✅ Data Analysis (SQL)
-- Loading cleaned data into MS SQL Server  
-- Writing analytical SQL queries to extract insights on:  
-  - Customer demographics  
-  - Buying behavior  
-  - Revenue drivers  
-  - Category performance  
-  - Purchase frequency & loyalty  
+## Tools & Technologies
+- SQL (Joins, Aggregations, Window Functions)
+- Python (Pandas, NumPy)
+- Power BI (DAX, Data Modeling)
 
-### ✅ Dashboard & Visualization (Power BI)
-- Building an interactive dashboard for business stakeholders  
-- Visualizing demographics, product categories, spending patterns, and behavior trends  
+## Key Analysis Performed
+- Customer segmentation based on spending behavior
+- Category-wise revenue contribution
+- Repeat purchase analysis
+- Monthly sales trends
 
-### ✅ Report & Presentation
-- Summarizing findings in a structured manner  
-- Presenting actionable recommendations  
-- Preparing a polished analytics case study for portfolio/interview use  
+## Dashboard
+The Power BI dashboard includes:
+- Revenue & Order KPIs
+- Category performance
+- Customer segmentation
+- Time-based sales trends
 
----
+## Business Impact
+- Identified high-value customer segments
+- Insights can support targeted marketing
+- Helps optimize product and inventory strategy
 
-## 🛠️ How to Use This Project
-
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/sachinsalve446/customer_behaviour_analysis.git
-cd customer_behaviour_analysis
+## Author
+Sarvesh Salve  
+Data Analyst | SQL | Power BI
